@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsões do Signo</title>
+    <link rel="stylesheet" href="Stile.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Previsões do Signo</h1>
+        <label for="signo">Selecione seu signo:</label>
+        <select id="signo" onchange="buscarPrevisao()">
+            <option value="aries">Áries</option>
+            <option value="touro">Touro</option>
+            <option value="gemeos">Gêmeos</option>
+            <option value="cancer">Câncer</option>
+            <option value="leao">Leão</option>
+            <option value="virgem">Virgem</option>
+            <option value="libra">Libra</option>
+            <option value="escorpiao">Escorpião</option>
+            <option value="sagitario">Sagitário</option>
+            <option value="capricornio">Capricórnio</option>
+            <option value="aquario">Aquário</option>
+            <option value="peixes">Peixes</option>
+        </select>
+        <div id="outroSigno">
+            <label for="inputSigno">Ou digite seu signo:</label>
+            <input type="text" id="inputSigno" placeholder="Digite seu signo">
+            <button onclick="buscarPrevisao()">Buscar Previsão</button>
+        </div>
+        <div id="previsao" class="previsao">
+        </div>
+    </div>
+    <script src="Script.js"></script>
+</body>
+</html>

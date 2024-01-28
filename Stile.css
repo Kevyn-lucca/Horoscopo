@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #C42BBE;
+    margin: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #5fb7ff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(41, 129, 228, 0.1);
+}
+
+h1 {
+    color: #333333;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.previsao {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #eeeeee;
+    border-radius: 5px;
+}
+
+
+button{
+    border-radius: 5px;
+    background-color: #f88ec8;
+}
